@@ -1,0 +1,10 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "entryPoints": [
+    {
+      "filePath": "RPA - Accounting.xaml",
+      "uniqueId": "9867eadf-4c7b-46aa-907e-47fb3492d99f",
+      "type": "process"
+    }
+  ]
+}
