@@ -1,0 +1,66 @@
+# ============================
+# UiPath Project Git Ignore
+# ============================
+
+# Ignore user-specific configuration
+.settings/
+.settings/*
+
+# Ignore backup folder created by UiPath
+_Backup/
+_Backup/*
+
+# Ignore project auto-generated folders
+.screenshots/
+.local/
+.logs/
+temp/
+Test Results/
+project.autochanges
+auto_changes.json
+
+# Ignore NuGet package folders
+packages/
+packages/*
+
+# Ignore Excel temporary files
+~$*.xlsx
+*.tmp
+
+# Ignore system files
+Thumbs.db
+*.DS_Store
+
+# Ignore publish folders
+*.nupkg
+*.publishsettings
+
+# Ignore JSON execution logs
+*.json.metadata
+
+# Ignore Orchestrator related cache
+.orchestrator-cache/
+
+# Ignore log files
+*.log
+*.trace
+
+# Ignore cache + hidden UiPath system files
+.cache/
+.cache/*
+
+# Ignore browser automation recordings
+.uipath/
+.uipath/*
+
+# Ignore workflow designer debug data
+*.user
+*.sou
+
+# VS Code or general IDE files
+.vscode/
+.idea/
+
+# Avoid committing secrets accidentally
+secrets.json
+credentials.json
