@@ -68,27 +68,6 @@ Sends email only to entries marked Valid
 
 Reads Email column from the Excel sheet
 
-
----
-
-📁 Project Files Included
-
-RPA - Accounting/
-│
-├── Main.xaml
-├── RPA - Accounting.xaml
-├── project.json
-│
-├── Invoices.xlsx                 # Master invoice sheet
-├── InvoiceDetails.xlsx           # Product line-item sheet
-│
-├── ValidInvoices.xlsx            # Auto-generated (output)
-│
-├── .screenshots/                 # UiPath screenshots (ignored in Git)
-├── .settings/                    # Project settings
-└── .gitignore
-
-
 ---
 
 ⚙ How the Automation Works (Flow Summary)
